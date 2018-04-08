@@ -86,11 +86,7 @@ function drawChimney (var x, var y) {
 
 
 function setup() {
-  createCanvas(1800,1000);
-  fill(#6ED746);
-  rect(0,700,width,300);
-  fill(#6EE3FF);
-  rect(0,0,width,700);
+  createCanvas(1000,1000);
   drawHouse(0,100);
 
 }
