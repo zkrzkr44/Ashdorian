@@ -1,13 +1,13 @@
 function btropg(x,y,h,s) {
 
 
-  var x= x*(1/s);
+  x= x*(1/s);
 
-  var y= y*(1/s);
+  y= y*(1/s);
 
   scale(s);
 
-  var hy = y-(h*5);
+  hy = y-(h*5);
 
   //foot...?
 
