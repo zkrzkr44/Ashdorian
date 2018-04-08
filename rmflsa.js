@@ -1,4 +1,4 @@
-function btropg(var x, var y, var h, var s) {
+function btropg(x,y,h,s) {
 
 
   x= x*(1/s);
