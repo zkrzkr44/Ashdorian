@@ -1,9 +1,9 @@
 function btropg(x,y,h,s) {
 
 
-  x= x*(1/s);
+  var x= x*(1/s);
 
-  y= y*(1/s);
+  var y= y*(1/s);
 
   scale(s);
 
