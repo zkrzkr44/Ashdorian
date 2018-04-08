@@ -1,5 +1,9 @@
 function setup() {
   createCanvas(1800,1000);
+  
+}
+
+function draw() {
   fill(#6ED746);
   rect(0,700,width,300);
   fill(#6EE3FF);
@@ -12,10 +16,6 @@ function setup() {
   drawPig(1800, 1300, 350, 300);
   drawFrog(2300,1300, 240);
   btropg(1800,1050,15,1);
-}
-
-function draw() {
-  
 }
 
 function btropg(var x, var y, var h, var s) {
