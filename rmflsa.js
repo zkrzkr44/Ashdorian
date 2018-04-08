@@ -7,7 +7,7 @@ function btropg(x,y,h,s) {
 
   scale(s);
 
-  hy = y-(h*5);
+  var hy = y-(h*5);
 
   //foot...?
 
