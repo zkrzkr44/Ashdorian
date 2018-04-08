@@ -272,7 +272,7 @@ function drawHouse(var x, var y) {
 
 }
 
-void drawBodyOfHouse(var x, var y) {
+function drawBodyOfHouse(var x, var y) {
 
   fill(255,150,0);
 
