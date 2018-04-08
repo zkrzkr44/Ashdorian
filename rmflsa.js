@@ -1,4 +1,4 @@
-function btropg(x,y,h,s) {
+function btropg(var x, var y, var h, var s) {
 
 
   x= x*(1/s);
@@ -128,7 +128,7 @@ function btropg(x,y,h,s) {
 
 }
 
-function drawCloud(x,y,z,w,k)
+function drawCloud(var x,var y,var z,var w,var k)
 
 {
 
@@ -144,7 +144,7 @@ function drawCloud(x,y,z,w,k)
 
 }
 
-function drawFrog(x,y,size) {  
+function drawFrog(var x, var y, var size) {  
 
   noStroke();
 
@@ -233,7 +233,7 @@ function drawFrog(x,y,size) {
 
 } 
 
-function drawHouse(x,y) {
+function drawHouse(var x, var y) {
   
   scale(1.2);
   drawBodyOfHouse(x+-2,y+2);
@@ -252,7 +252,7 @@ function drawHouse(x,y) {
 
 }
 
-function drawBodyOfHouse(x,y) {
+function drawBodyOfHouse(var x, var y) {
 
   fill(255,150,0);
 
@@ -261,7 +261,7 @@ function drawBodyOfHouse(x,y) {
 }
 
 
-function drawTallWindow(x,y) {
+function drawTallWindow(var x, var y) {
 
   fill(#09d7f6, 235); // skyblue
 
@@ -275,7 +275,7 @@ function drawTallWindow(x,y) {
 
 }
 
-function drawWideWindow(x,y) {
+function drawWideWindow(var x, var y) {
 
   fill(#09d7f6, 235); // skyblue
 
@@ -289,7 +289,7 @@ function drawWideWindow(x,y) {
 
 }
 
-function drawDoor(x,y) {
+function drawDoor(var x, var y) {
 
   fill(#8B4513); // brown
 
@@ -302,7 +302,7 @@ function drawDoor(x,y) {
 }
 
 
-function drawRoof(x,y) {
+function drawRoof(var x, var y) {
 
   fill(170,0,0); // red
 
@@ -310,7 +310,7 @@ function drawRoof(x,y) {
 
 }
 
-function drawChimney (x,y) {
+function drawChimney (var x, var y) {
 
   fill(#4F4F4F); // gray
 
@@ -318,7 +318,7 @@ function drawChimney (x,y) {
 
 }
 
-function drawPig(x,y,size,tall){
+function drawPig(var x, var y, var size, var tall){
 
  scale(1.5);
 
