@@ -14,10 +14,6 @@ function setup() {
   btropg(1800,1050,15,1);
 }
 
-function draw() {
-  
-}
-
 function btropg(var x, var y, var h, var s) {
 
 
