@@ -1,16 +1,19 @@
 function setup() {
   createCanvas(1800,1000);
+}
+
+function draw() {
   fill(#6ED746);
-  rect(0,700,width,300);
+  btropg(1800,1050,15,1);
   fill(#6EE3FF);
-  rect(0,0,width,700);
-  drawHouse(0,100);
-  drawSquidward(1095,1450, 0, 0, 6, 20);
-  drawCloud(2000,500,300,150,255);
-  drawCloud(1000,300,400,180,255);
-  drawCloud(3700,400,500,230,255);
-  drawPig(1800, 1300, 350, 300);
-  drawFrog(2300,1300, 240);
+  rect(0,0,width,700); 
+  drawHouse(0,100); 
+  drawSquidward(1095,1450, 0, 0, 6, 20);  
+  drawCloud(2000,500,300,150,255); 
+  drawCloud(1000,300,400,180,255);  
+  drawCloud(3700,400,500,230,255); 
+  drawPig(1800, 1300, 350, 300); 
+  drawFrog(2300,1300, 240); 
   btropg(1800,1050,15,1);
 }
 
