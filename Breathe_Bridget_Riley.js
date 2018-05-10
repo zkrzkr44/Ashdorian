@@ -1,7 +1,9 @@
 var tri = new Array(20);
+var col;
 
 function setup() {
   createCanvas(600,1000);
+  col = 0;
   background(0);
   
   for(var i = 0; i<tri.length; i++) {
@@ -10,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(0+col, 0+col, 0+col);
   for(var i = 0; i<tri.length; i++) {
     tri[i] = 30*i;
     fill(255);
