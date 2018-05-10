@@ -24,3 +24,10 @@ function draw() {
     }
   }
 }
+
+function keyPressed() {
+  if(keyCode == ENTER) {
+    if(col == 0) col = random(0,255);
+    else if(col !== 0) col = 0;
+  }
+}
