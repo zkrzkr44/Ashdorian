@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background(0+col, 0+col, 0+col);
+  background(0+col, 0+col/2, (0+col*3)%256);
   for(var i = 0; i<tri.length; i++) {
     tri[i] = 30*i;
     fill(255);
